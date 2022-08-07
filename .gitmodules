@@ -1,0 +1,3 @@
+[submodule "OpenBK7231T_App"]
+	path = OpenBK7231T_App
+	url = https://github.com/iprak/OpenBK7231T_App.git
