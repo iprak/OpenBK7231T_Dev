@@ -7,9 +7,8 @@ wget -q "https://occ-oss-prod.oss-cn-hangzhou.aliyuncs.com/resource/1356021/1619
 cd ..
 
 echo "Getting XR809 toolchain"
-mkdir csky-XR809
-cd csky-XR809
 wget -q "https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q2-update/+download/gcc-arm-none-eabi-4_9-2015q2-20150609-linux.tar.bz2" && tar -xf *.tar.bz2 && rm -f *.tar.bz2
+mv gcc-arm-none-eabi-4_9-2015q2 csky-XR809
 
 echo "Setting OpenBK7231T_App submodule"
 git add submodule https://github.com/iprak/OpenBK7231T_App.git
