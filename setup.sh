@@ -12,3 +12,4 @@ mv gcc-arm-none-eabi-4_9-2015q2 csky-XR809
 
 echo "Setting OpenBK7231T_App submodule"
 git add submodule https://github.com/iprak/OpenBK7231T_App.git
+#git add submodule https://github.com/openshwprojects/OpenBK7231T_App.git
