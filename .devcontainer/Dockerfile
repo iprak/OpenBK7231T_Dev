@@ -5,7 +5,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 RUN dpkg --add-architecture i386 && \
     apt update && \
-    apt install -y sudo git wget libc6-i386 gcc make python && \
+    apt install -y sudo git wget libc6-i386 gcc make python dos2unix && \
 	apt-get autoremove -y && \
     rm -rf /var/lib/apt/lists/* && \
     apt clean
