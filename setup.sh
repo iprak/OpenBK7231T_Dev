@@ -11,5 +11,5 @@ wget -q "https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q2-update/+download
 mv gcc-arm-none-eabi-4_9-2015q2 csky-XR809
 
 echo "Setting OpenBK7231T_App submodule"
-git add submodule https://github.com/iprak/OpenBK7231T_App.git
-#git add submodule https://github.com/openshwprojects/OpenBK7231T_App.git
+git submodule update OpenBK7231T_App
+#git submodule add https://github.com/openshwprojects/OpenBK7231T_App.git
